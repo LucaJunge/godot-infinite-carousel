@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/infinite-carousel/carousel.gd" type="Script" id=1]
+
+[node name="Infinite Carousel" type="Container"]
+margin_right = 233.0
+margin_bottom = 230.0
+mouse_filter = 2
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0.999665 )
+margin_left = 116.5
+margin_top = 115.0
+margin_right = 182.5
+margin_bottom = 135.0
+rect_scale = Vector2( 0.97872, 0.97872 )
+text = "BUTTON"
+
+[node name="Button2" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0.663841 )
+margin_left = 5.70192
+margin_top = 115.0
+margin_right = 71.7019
+margin_bottom = 135.0
+rect_scale = Vector2( 0.761064, 0.761064 )
+text = "BUTTON"
+
+[node name="Button3" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 48.023
+margin_top = 115.0
+margin_right = 114.023
+margin_bottom = 135.0
+rect_scale = Vector2( 1e-05, 1e-05 )
+text = "BUTTON"
+
+[node name="Button4" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 184.977
+margin_top = 115.0
+margin_right = 250.977
+margin_bottom = 135.0
+rect_scale = Vector2( 1e-05, 1e-05 )
+text = "BUTTON"
+
+[node name="Button5" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0.663841 )
+margin_left = 227.298
+margin_top = 115.0
+margin_right = 293.298
+margin_bottom = 135.0
+rect_scale = Vector2( 0.761064, 0.761064 )
+text = "BUTTON"
